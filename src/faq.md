@@ -7,6 +7,7 @@ eleventyNavigation:
 ---
 # FAQs
 
+## Question category
 ### How do I feel about nutritionists, dietitians, and naturopaths?
 
 Nutritionist, dieticians and naturopaths have a wealth of knowledge and are a fantastic blueprint for potential lifestyle areas for patients to focus on. Think of their advice / prescriptions as the other side of a deep, rushing river that you need to get to. You have two options for crossing the river, navigate it yourself–with a discerning eye for the river and steady foot placement you can absolutely make it, or you find the bridge to help you cross–a health coach is the bridge.
