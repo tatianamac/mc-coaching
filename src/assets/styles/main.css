@@ -8,6 +8,29 @@ a:hover {
   @apply underline;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+  margin-bottom: .5em;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
 @tailwind components;
 
 @tailwind utilities;
@@ -37,11 +60,11 @@ a:hover {
 }
 
 .content h5 {
-  @apply text-xl font-bold mt-10 mb-5;
+  @apply text-xl mb-5;
 }
 
 .content h6 {
-  @apply text-lg font-bold mt-10 mb-5;
+  @apply text-lg mb-5;
 }
 
 .content ul,
@@ -61,11 +84,11 @@ a:hover {
 }
 
 .content ul {
-  @apply list-outside list-disc;
+  @apply list-outside list-square;
 }
 
 .content ol {
-  @apply list-outside list-decimal;
+  @apply list-outside;
 }
 
 .content pre[class*='language-'] {
@@ -82,5 +105,5 @@ a:hover {
 }
 
 .content th {
-  @apply bg-gray-100;
+  @apply bg-primary;
 }
