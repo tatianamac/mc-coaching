@@ -8,8 +8,8 @@ permalink: '<% if (pagination.pageNumber > 0) { %><%= `page${pagination.pageNumb
 eleventyComputed:
   title: '<% if (pagination.pageNumber > 0) { %><%= `Page ${pagination.pageNumber + 1} | ${site.title}` %><% } else { %><%= site.title %><% } %>'
 ---
-
-<ul>
+Content in progress
+<!-- <ul>
   <% list.forEach((post) => { %>
   <li class="mb-3 flex justify-between">
     <a href="<%= post.url %>"><%= post.data.title %></a>
@@ -29,4 +29,4 @@ eleventyComputed:
     <a href="<%= pagination.next.replace(/index.html$/, "") %>">Older Posts →</a>
   </div>
   <% } %>
-</div>
+</div> -->
